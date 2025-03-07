@@ -91,7 +91,7 @@ const InteractiveCardForm: React.FC = () => {
           <div className="text-center">
             <img src="./public/icon-complete.svg" alt="complete" className="mx-auto mb-6" />
             <h2 className="text-2xl font-semibold mb-4">THANK YOU!</h2>
-            <p className="text-gray-500 mb-8">We've added your card details</p>
+            <p className="text-gray-500 mb-8">We've added your card </p>
             <button
               onClick={() => setIsSubmitted(false)}
               className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
@@ -180,7 +180,7 @@ const InteractiveCardForm: React.FC = () => {
 
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+              className="w-full bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors"
             >
               Confirm
             </button>
